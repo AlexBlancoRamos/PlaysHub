@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F78181"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPlayHub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preguntas PlayHub"
+        android:textColor="#000000"
+        android:backgroundTint="#FA5858"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:backgroundTint="#FA5858"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textViewPlayHub"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:backgroundTint="#FA5858"
+        android:layout_below="@id/textViewQuestion"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioButtonAnswer1"
+            android:textColor="#000000"
+            android:backgroundTint="#FA5858"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAnswer2"
+            android:textColor="#000000"
+            android:backgroundTint="#FA5858"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/radioButtonAnswer3"
+            android:textColor="#000000"
+            android:backgroundTint="#FA5858"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonCheckAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comprobar Pregunta"
+        android:textColor="#000000"
+        android:backgroundTint="#FA5858"
+        android:layout_below="@id/radioGroupAnswers"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/buttonChangeQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambiar Pregunta"
+        android:textColor="#000000"
+        android:backgroundTint="#FA5858"
+        android:layout_below="@id/buttonCheckAnswer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="330dp"
+        android:layout_marginTop="640dp"
+        android:backgroundTint="#FA5858"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/baseline_add_24"
+        android:textColor="#000000"
+        app:fabSize="normal" />
+
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F78181"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hora de crear tu pregunta"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewPregunta"
+        android:text="Pregunta:"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:background="#FA5858"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewAnswer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextQuestion"
+        android:layout_marginTop="16dp"
+        android:text="Respuesta 1:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAnswer1"
+        android:background="#FA5858"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewAnswer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAnswer1"
+        android:layout_marginTop="16dp"
+        android:text="Respuesta 2:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAnswer2"
+        android:background="#FA5858"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
+
+
+    <TextView
+        android:id="@+id/textViewAnswer3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAnswer2"
+        android:layout_marginTop="16dp"
+        android:text="Respuesta 3:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewAnswer3"
+        android:background="#FA5858"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/textViewAnswerCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextAnswer3"
+        android:layout_marginTop="16dp"
+        android:text="Respuesta Correcta:"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextAnswerCorrect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FA5858"
+        android:textColor="#000000"
+        android:layout_below="@id/textViewAnswerCorrect"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FA5858"
+        android:textColor="#000000"
+        android:layout_below="@id/editTextAnswerCorrect"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="24dp"
+        android:text="Guardar" />
+
+</RelativeLayout>
+

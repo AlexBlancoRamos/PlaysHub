@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "364256520492",
+    "project_id": "playshub-10319",
+    "storage_bucket": "playshub-10319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364256520492:android:cfc945b8dc65bfbe552489",
+        "android_client_info": {
+          "package_name": "com.alexblanco.playshub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiiAuRpzGtz60Hfsy_m9aOFzqwN3De8-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
